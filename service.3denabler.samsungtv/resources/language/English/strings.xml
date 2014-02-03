@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30000">General</string>
+  <string id="30001">Enable switch to 3D</string>
+  <string id="30002">Discover TV automatically</string>
+  <string id="30003">TV IP address</string>
+  <string id="30004">Pause playback during switch</string>
+  <string id="30005">Screen to black during switch</string>
+  <string id="30006">Show Notifications</string>
+  <string id="30007">TV name</string>
+  <string id="30010">Advanced</string>
+  <string id="30011">Current 3DTV mode</string>
+  <string id="30012">Detection mode</string>
+  <string id="30120">Events and Polling</string>
+  <string id="30121">Events only</string>
+  <string id="30122">Polling only</string>
+  <string id="30013">Poll frequency (seconds)</string>
+  <string id="30014">Skip poll if inactive more than (seconds)</string>
+  <string id="30015">Skip poll during screensaver</string>
+  <string id="30020">Key Press</string>
+  <string id="30021">Over/Under sequence</string>
+  <string id="30022">Side by Side sequence</string>
+  <string id="30023">Back to None sequence</string>
+  <string id="30024">Supported commands: 3D, RIGHT, LEFT, UP, DOWN, EXIT, ENTER</string>
+  <string id="30025">To define a delay: P4000 where 4000 is milliseconds</string>
+  <string id="30026">Samsung KEY_* codes are also supported</string>
+  <string id="30501">Access Denied. Check Permissions</string>
+  <string id="30502">HTTP Error</string>
+  <string id="30503">Unknown</string>
+  <string id="30504">Discovered TV</string>
+  <string id="30505">Samsung TV is not detected</string>
+  <string id="30506">TV has not been discovered</string>
+  <string id="30507">Discovery is turned off</string>
+  <string id="30508">Connection Failed</string>
+  <string id="30509">Authentication Failed</string>
+  <string id="30510">Authentication Timeout</string>
+  <string id="30511">Authentication</string>
+  <string id="30512">Your TV is asking for permission</string>
+  <string id="30513">Please Allow access</string>
+  <string id="30514">Select your TV device</string>
+  <string id="30515">Your Samsung TV is not defined yet</string>
+  <string id="30516">Auto Discovery is currently Disabled</string>
+  <string id="30517">Do you want to enter your TV IP address now?</string>
+  <string id="30518">If it is connected to your network - it can be discovered</string>
+  <string id="30519">Do you want to discover TV now?</string>
+</strings>
+

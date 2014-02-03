@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30000">
+    <setting label="30001" id="enabled" type="bool" default="true"/>
+    <setting label="30002" id="discover" type="bool" default="true"/>
+    <setting label="30003" id="ipaddress" type="ipaddress" visible="!eq(-1,true)"/>
+    <setting label="30007" id="tvname" type="text" enable="false" visible="eq(-2,true)"/>
+    <setting label="30004" id="pause" type="bool" default="true"/>
+    <setting label="30005" id="black" type="bool" default="true"/>
+    <setting label="30006" id="notifications" type="bool" default="true"/>
+  </category>
+  <category label="30010">
+    <setting label="30011" id="curTVmode" type="select" lvalues="36502|36503|36504" default="0"/>
+    <setting label="30012" id="detectmode" type="enum" lvalues="30120|30121|30122" default="0"/>
+    <setting label="30013" id="pollsec" type="number" default="5" visible="!eq(-1,1)"/>
+    <setting label="30014" id="idlesec" type="number" default="5" visible="!eq(-2,1)"/>
+    <setting label="30015" id="skipInScreensaver" type="bool" default="true" visible="!eq(-3,1)"/>
+  </category>
+  <category label="30020">
+    <setting label="30021" id="sequence3DTAB" type="text" default="3D,P4000,RIGHT,P1200,RIGHT,P1200,EXIT"/>
+    <setting label="30022" id="sequence3DSBS" type="text" default="3D,P4000,RIGHT,P1200,EXIT"/>
+    <setting label="30023" id="sequence3Dnone" type="text" default="3D,P1200"/>
+    <setting label="30024" type="lsep"/>
+    <setting label="30025" type="lsep"/>
+    <setting label="30026" type="lsep"/>
+  </category>
+</settings>
