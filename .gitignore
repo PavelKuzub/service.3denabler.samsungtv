@@ -15,7 +15,6 @@ var
 sdist
 develop-eggs
 .installed.cfg
-lib
 lib64
 __pycache__
 
@@ -34,3 +33,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+.DS_Store
