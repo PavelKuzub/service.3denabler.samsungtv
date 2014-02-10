@@ -1,0 +1,6 @@
+[B]0.1.0[/B]
+- Initial public release
+
+[B]0.1.1[/B]
+- Added SSDP discovery mode selection
+- Changed addon structure in Github

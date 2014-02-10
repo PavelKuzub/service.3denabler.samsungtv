@@ -46,6 +46,12 @@ keyMap = {
           'ENTER'   :'KEY_ENTER'
     }
 
+ssdpModeMap = [
+        'ssdp:all',
+        'urn:samsung.com:device:RemoteControlReceiver:1',
+        'urn:samsung.com:service:MultiScreenService:1'
+    ]
+
 class responsePayloadMapping(object):
     def __init__(self):
         self.waiting        = '\x0A\x00\x01\x00\x00\x00'
@@ -70,6 +76,7 @@ class Settings(object):
         self.pollCount      = 0
         self.curTVmode      = 0
         self.newTVmode      = 0
+        self.ssdpmode       = 1
         self.detectmode     = 0
         self.pollsec        = 5
         self.idlesec        = 5
@@ -125,6 +132,7 @@ class Settings(object):
         self.black              = self.getSetting('black', bool)
         self.notifications      = self.getSetting('notifications', bool)
         self.curTVmode          = self.getSetting('curTVmode', int)
+        self.ssdpmode           = self.getSetting('ssdpmode', int)
         self.detectmode         = self.getSetting('detectmode', int)
         self.pollsec            = self.getSetting('pollsec', int)
         self.idlesec            = self.getSetting('idlesec', int)
@@ -188,7 +196,10 @@ def discoverTVip():
     discoverCount = 0
     while True:
         discoverCount += 1
-        dicovered = ssdp.discover('urn:samsung.com:service:MultiScreenService:1')
+        #dicovered = ssdp.discover('urn:samsung.com:service:MultiScreenService:1')
+        #dicovered = ssdp.discover('ssdp:all')
+        #dicovered = ssdp.discover('urn:samsung.com:device:RemoteControlReceiver:1')
+        dicovered = ssdp.discover(ssdpModeMap[settings.ssdpmode])
         if xbmc.abortRequested: break
         if len(dicovered) > 0: break
         if discoverCount > 2: break

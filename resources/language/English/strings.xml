@@ -17,6 +17,10 @@
   <string id="30013">Poll frequency (seconds)</string>
   <string id="30014">Skip poll if inactive more than (seconds)</string>
   <string id="30015">Skip poll during screensaver</string>
+  <string id="30016">SSDP discover devices</string>
+  <string id="30160">All</string>
+  <string id="30161">Samsung Remote Controlled</string>
+  <string id="30162">Samsung Multi Screen</string>
   <string id="30020">Key Press</string>
   <string id="30021">Over/Under sequence</string>
   <string id="30022">Side by Side sequence</string>

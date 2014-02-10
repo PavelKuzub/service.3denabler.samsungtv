@@ -16,8 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import xbmcgui
-import xbmc
 if __name__ == "__main__":
-  import xbmcaddon
-  xbmcaddon.Addon().openSettings()
+    import xbmcgui
+    import xbmc
+    import xbmcaddon
+    xbmcaddon.Addon().openSettings()
