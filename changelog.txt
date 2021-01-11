@@ -1,6 +1,9 @@
-[B]0.1.0[/B]
-- Initial public release
+[B]2.0.0[/B]
+- Ported to Kodi v19 Matrix
 
 [B]0.1.1[/B]
 - Added SSDP discovery mode selection
 - Changed addon structure in Github
+
+[B]0.1.0[/B]
+- Initial public release
