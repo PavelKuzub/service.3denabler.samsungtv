@@ -2,12 +2,12 @@
 <addon
     id="service.3denabler.samsungtv"
     name="3D Enabler Samsung TV"
-    version="0.1.1"
+    version="2.0.0"
     provider-name="Pavel Kuzub">
   <requires>
-    <import addon="xbmc.python"              version="2.14.0"/>
-    <import addon="script.module.simplejson" version="2.0.10"/>
-  </requires>
+    <import addon="xbmc.python"              version="3.0.0"/>
+    <import addon="script.module.websocket" version="0.57.0+matrix.1"/>
+	</requires>
   <extension point="xbmc.service"       library="service.py" start="login"/>
   <extension point="xbmc.python.script" library="script.py"/>
   <extension point="xbmc.addon.metadata">
@@ -18,7 +18,10 @@
     <description lang="en">Once you start your 3D movie - your Samsung 3DTV that is connected to your LAN should switch to respective 3D mode automatically</description>
     <description lang="ru">Как только вы начнете просмотр вашего 3D кино - ваш Samsung 3DTV, который подключен к вашей локальной сети, должен автоматически переключиться в соответсвующий 3D режим</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=185212</forum>
+    <forum>https://forum.kodi.tv/showthread.php?tid=185212</forum>
     <source>https://github.com/PavelKuzub/service.3denabler.samsungtv</source>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>

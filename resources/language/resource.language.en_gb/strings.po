@@ -1,0 +1,208 @@
+# Kodi Media Center language file
+# Addon Name: 3D Enabler Samsung TV
+# Addon id: service.3denabler.samsungtv
+# Addon Provider: Pavel Kuzub	
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Addons\n"
+"Report-Msgid-Bugs-To: https://github.com/PavelKuzub/service.3denabler.samsungtv/issues\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Pavel Kuzub\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Enable switch to 3D"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Discover TV automatically"
+msgstr ""
+
+msgctxt "#30003"
+msgid "TV IP address"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Pause playback during switch"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Screen to black during switch"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Show Notifications"
+msgstr ""
+
+msgctxt "#30007"
+msgid "TV name"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Current 3DTV mode"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Detection mode"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Events and Polling"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Events only"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Polling only"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Poll frequency (seconds)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Skip poll if inactive more than (seconds)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Skip poll during screensaver"
+msgstr ""
+
+msgctxt "#30016"
+msgid "SSDP discover devices"
+msgstr ""
+
+msgctxt "#30160"
+msgid "All"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Samsung Remote Controlled"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Samsung Multi Screen"
+msgstr ""
+
+msgctxt "#30163"
+msgid "DIAL"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Key Press"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Over/Under sequence"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Side by Side sequence"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Back to None sequence"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Supported commands: 3D, RIGHT, LEFT, UP, DOWN, EXIT, ENTER"
+msgstr ""
+
+msgctxt "#30025"
+msgid "To define a delay: P4000 where 4000 is milliseconds"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Samsung KEY_* codes are also supported"
+msgstr ""
+
+msgctxt "#30501"
+msgid "Access Denied. Check Permissions"
+msgstr ""
+
+msgctxt "#30502"
+msgid "HTTP Error"
+msgstr ""
+
+msgctxt "#30503"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "#30504"
+msgid "Discovered TV"
+msgstr ""
+
+msgctxt "#30505"
+msgid "Samsung TV is not detected"
+msgstr ""
+
+msgctxt "#30506"
+msgid "TV has not been discovered"
+msgstr ""
+
+msgctxt "#30507"
+msgid "Discovery is turned off"
+msgstr ""
+
+msgctxt "#30508"
+msgid "Connection Failed"
+msgstr ""
+
+msgctxt "#30509"
+msgid "Authentication Failed"
+msgstr ""
+
+msgctxt "#30510"
+msgid "Authentication Timeout"
+msgstr ""
+
+msgctxt "#30511"
+msgid "Authentication"
+msgstr ""
+
+msgctxt "#30512"
+msgid "Your TV is asking for permission. Please Allow access"
+msgstr ""
+
+msgctxt "#30513"
+msgid "Please Allow access"
+msgstr ""
+
+msgctxt "#30514"
+msgid "Select your TV device"
+msgstr ""
+
+msgctxt "#30515"
+msgid "Your Samsung TV is not defined yet \nTurn it on and connect to your network"
+msgstr ""
+
+msgctxt "#30516"
+msgid "Auto Discovery is currently Disabled"
+msgstr ""
+
+msgctxt "#30517"
+msgid "Enter TV IP"
+msgstr ""
+
+msgctxt "#30518"
+msgid "Later"
+msgstr ""
+
+msgctxt "#30519"
+msgid "Discover TV"
+msgstr ""
